@@ -13,4 +13,4 @@ accumulate(Fun, [H|T], Result) ->
 	accumulate(Fun, T, [Fun(H)|Result]);
 
 accumulate(_Fn, [], Result) ->
-	lists:reverse(Result).e
+	lists:reverse(Result).
